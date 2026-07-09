@@ -1,0 +1,15 @@
+//1.Swap two numbers using pointers. 
+#include <stdio.h>
+
+int main() {
+    int a= 5;
+    int b = 7;
+    int *p = &a;
+    int *q = &b;
+    int temp;
+    temp = *p;
+    *p = *q;
+    *q = temp;
+    printf("%d %d", a, b);
+    return 0;
+}
