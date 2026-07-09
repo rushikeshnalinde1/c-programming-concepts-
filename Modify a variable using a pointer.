@@ -1,0 +1,10 @@
+//Modify a variable using a pointer.
+#include <stdio.h>
+
+int main() {
+    int a= 5;
+    int *p = &a;
+    *p += 5;
+    printf("a is : %d", *p);
+    return 0;
+}
