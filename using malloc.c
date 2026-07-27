@@ -12,6 +12,7 @@ int main() {
     printf("enter the element you want to save \n");
     scanf("%d", &*ptr);
     printf("%d", *ptr);
+    free(ptr);
 
     return 0;
 }
